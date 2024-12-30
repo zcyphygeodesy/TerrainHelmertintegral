@@ -4,6 +4,7 @@ https://www.zcyphygeodesy.com/en/h-nd-129.html
     Using the rigorous numerical integral algorithm, from the ground digital elevation model and ground ellipsoidal height grid, compute the terrain Helmert condensation effects on the height anomaly (m), gravity (anomaly/disturbance, mGal), vertical deflection (ʺ, to south, to west) or (disturbing) gravity gradient (E, radial) on or outside the geoid.
     Since the normal gravity field keeps unchanged, the terrain Helmert condensation effect on the gravity disturbance and gravity anomaly is always equal to the terrain Helmert condensation effect on gravity.
     Compared with local terrain effects, terrain Helmert condensation has more ultrashort wave components. Affected by the continental topography, there is terrain Helmert condensation in the nearshore sea area, and the terrain Helmert condensation in the deep ocean area is equal to zero.
+![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAg7OzltwYoxPn2hAMwpQ047gg.jpg)
 ## [Main program for test entrance]
     TerrainHelmertintgrl.f90
     The record format of the input calculation point file: ID (point no / point name), longitude (decimal degrees), latitude (decimal degrees), ellipsoidal height (m)......
@@ -41,5 +42,5 @@ https://www.zcyphygeodesy.com/en/h-nd-129.html
     7.7 Local terrain compensation and terrain Helmert condensation
     7.5.2 Integral formula of local terrain effect outside the Earth
     7.1(4) Low-dgree Legendre function and its first and second derivative algorithms
-
-DOS executable test file and all input and output data.
+The zip compression package includes the test project in visual studio 2017 - intel fortran integrated environment, DOS executable test file and all input and output data.
+![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAg7OzltwYo2PabyQcwpQ047gg.jpg)
